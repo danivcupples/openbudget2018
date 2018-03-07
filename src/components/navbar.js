@@ -11,7 +11,7 @@ export default class NavBar extends React.Component {
             <Navbar inverse collapseOnSelect>
                 <Navbar.Header>
                     <Nav pullLeft>
-                    <img src={ require('../images/LogoBLK.png') } alt="crown logo" height="30"/>
+                        <img src={ require('../images/LogoBLK.png') } alt="crown logo" height="30"/>
                     </Nav>
                     <Navbar.Brand>
                         <a href="#brand">Open Budget: CLT</a>

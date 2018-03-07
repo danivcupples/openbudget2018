@@ -8,12 +8,7 @@ export default class Footer extends React.Component {
                     <div className="container text-center">
                         <div className="row">
                             <div className="col-md-4">
-                                <li>&copy; 2015</li>
-                                <li>Contact Us</li>
-                                <li>About</li>
-                            </div>
-                            <div className="col-md-4">
-                                <li>&copy; 2015</li>
+                                <li>&copy; 2018</li>
                                 <li>Contact Us</li>
                                 <li>About</li>
                             </div>
@@ -29,7 +24,7 @@ export default class Footer extends React.Component {
                         </div>
                     </div>
                 </div>
-            </footer>                  
+            </footer>
         );
     }
 }
