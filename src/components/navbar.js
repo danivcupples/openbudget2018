@@ -20,10 +20,9 @@ export default class NavBar extends React.Component {
                 </Navbar.Header>
                 <Navbar.Collapse>
                     <Nav pullRight>
-                        <NavItem eventKey={1} href="#">About</NavItem>
+                        <NavItem eventKey={1} href="#About">About</NavItem>
                         <NavDropdown eventKey={2} title="Dropdown" id="basic-nav-dropdown">
                             <MenuItem eventKey={2.1}>What and How</MenuItem>
-                            <MenuItem eventKey={2.2}>Who We Are</MenuItem>
                             <MenuItem divider />
                             <MenuItem eventKey={2.3}>News</MenuItem>
                             <MenuItem eventKey={2.4}>Contact Us</MenuItem>

@@ -1,0 +1,83 @@
+div.About {
+  padding: 10px 50px 30px 50px;
+}
+
+.MainContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Info {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(2, 400px);
+}
+
+.Project {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.CFC {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+h3 {
+  color: #006A4D;
+  font-family: "Helvetica", sans-serif;
+}
+
+.Links {
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Tiles {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(3, 150px);
+}
+
+.Tile1 {
+  height: 150px;
+  width: 140px;
+  background-color: #006A4D;
+  color: white;
+  font-size: 1.2em;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.Tile2 {
+  height: 150px;
+  width: 140px;
+  background-color: #006A4D;
+  color: white;
+  font-size: 1.2em;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.Tile3 {
+  height: 150px;
+  width: 140px;
+  background-color: #006A4D;
+  color: white;
+  font-size: 1.2em;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
