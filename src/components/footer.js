@@ -13,9 +13,6 @@ export default class Footer extends React.Component {
                                 <a href="#"><i className="fa fa-2x fa-twitter-square"></i></a>
                                 <a href="#"><i className="fa fa-2x fa-google-plus-square"></i></a>
                                 <a href="#"><i className="fa fa-2x fa-youtube-square"></i></a>
-                                <a href="#"><i className="fa fa-2x fa-vimeo-square"></i></a>
-                                <a href="#"><i className="fa fa-2x fa-pinterest-square"></i></a>
-                                <a href="#"><i className="fa fa-2x fa-linkedin-square"></i></a>
                             </div>
                           </div>
                           <div className="row">
